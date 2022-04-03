@@ -1,2 +1,1 @@
-# ayubsherif.github.io
-Bio
+# Plain-Academic Template
