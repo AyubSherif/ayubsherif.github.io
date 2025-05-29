@@ -61,7 +61,7 @@ header a {
 header a:hover,
 header a:focus,
 header a.active {
-    color: #2AC5F4; /* Highlight color */
+    color: black; /* Highlight color */
 }
 
 header a::after {
@@ -69,7 +69,7 @@ header a::after {
     display: block;
     width: 0;
     height: 2px;
-    background-color: #2AC5F4;
+    background-color: black;
     transition: width 0.3s ease-in-out;
 }
 
@@ -872,7 +872,7 @@ header a.active::after {
 /* Footer - Updated */
 footer {
     padding: 40px 20px;
-    background-color: #343a40; /* Darker background */
+    background-color: #4C515A; /* Darker background */
     color: #fff;
 }
 
@@ -906,7 +906,7 @@ footer {
 }
 
 .footer-top a:hover {
-    color: #2AC5F4;
+    color: #007acc;
 }
 
 .footer-top i {
@@ -1058,16 +1058,16 @@ footer {
 }
 
 #profile .portrait-title h2 {
-  font-size: 1.75em;
-  font-weight: 300;
-  color: #000000;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
   margin: 20px 0 10px 0;
 }
 
 #profile .portrait-title h3 {
-  font-size: 1rem;
-  font-weight: 300;
-  color: rgba(0,0,0, 0.54);
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: white;
   margin: 0px 0 10px 0;
 }
 
@@ -1096,7 +1096,7 @@ footer {
 
 .big-icon {
   font-size: 2rem;
-  color: #2AC5F4; /* bright blue */
+  color: white;
 }
 
 ul.ul-interests li {
