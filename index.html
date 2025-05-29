@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-
 <html class="no-js" lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<title>Portfolio</title>
-<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet"/>
-<link href="libs/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
-<link href="css/bootstrap.min.css" rel="stylesheet"/>
-<link href="css/styles.css" rel="stylesheet"/>
+    <meta charset="utf-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet" />
+    <link href="libs/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
 </head>
 <body>
     <div class="shadow-large" id="mobile-menu-open">
-        <i aria-hidden="true" class="fa fa-bars"></i>
+        <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
+
     <header>
         <div id="mobile-menu-close">
-            <span>Close</span> <i aria-hidden="true" class="fa fa-times"></i>
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
         </div>
         <ul class="shadow" id="menu">
-            <li><a href="#about">About</a></li>
+            <li><a href="#lead-content">About Me</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -32,116 +32,95 @@
 
     <div id="lead">
         <div id="lead-content">
-            <div id="lead-text">
-                <h1>Ayub Sherif</h1>
-                <p>
-                        From nuclear physics to predictive analytics—Always pushing beyond 100%.
+            <div class="container">
+                <div class="row" itemprop="author" itemref="person-email person-address" itemscope itemtype="http://schema.org/Person">
+                    <div class="col-xs-12 col-md-4">
+                        <div id="profile">
+                            <div class="portrait" style="background-image: url('/img/Ayub.jpg');"></div>
+                            <meta content="https://ayubsherif.github.io/img/Ayub.jpg" itemprop="image" />
+                            <div class="portrait-title">
+                                <h2 itemprop="name">Ayub Sherif</h2>
+                                <h3 itemprop="jobTitle">Data Analyst II</h3>
+                                <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+                                    <a href="https://loebelectric.com/" itemprop="url" rel="noopener" target="_blank">
+                                        <span itemprop="name">Loeb Electric</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <link href="https://ayubsherif.github.io/" itemprop="url" />
+                            <ul class="network-icon" aria-hidden="true">
+                                <li>
+                                    <a href="https://www.linkedin.com/in/ayub-sherif-824111113/" itemprop="same" rel="noopener" target="_blank">
+                                        <i class="fa fa-linkedin big-icon"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:ayub.sherif94@gmail.com" itemprop="sameAs" rel="noopener" target="_blank">
+                                        <i class="fa fa-envelope big-icon"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/AyubSherif?tab=repositories" itemprop="same" rel="noopener" target="_blank">
+                                        <i class="fa fa-github big-icon"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
 
-                </p>
-    <!-- Change resume link -->
-                <a class="btn-rounded-white" href="https://ayub" rel="noopener noreferrer" target="_blank">View Resume</a>
-            </div>
-            <div id="lead-visual">
-<!-- Change image link -->
-                <img alt="Utilization Report" src="images/UtilizationReport.png"/>
-            </div>
-        </div>
+                    <div class="col-xs-12 col-md-8" itemprop="description">
+                        <h1 id="about-me">About Me</h1>
+                        <p>
+                            I’m Ayub Sherif — a Data Analyst II at <a href="https://loebelectric.com/" target="_blank">Loeb Electric</a>.
+                            I bring a unique blend of engineering, physics, and data science to my work.<br>
+                            What sets me apart is my scientific mindset. I don’t just build models or dashboards—I understand the science behind the data.
+                            Whether I’m forecasting warehouse utilization using ML, or visualizing data in Power BI, I bring technical intuition and curiosity to every challenge.<br>
+                            I hold a B.S. and M.S. in Nuclear Engineering from <a href="https://www.osu.edu" target="_blank">The Ohio State University</a>.
+                            Currently, I am pursuing a Master’s in Data Science at the <a href="https://www.colorado.edu/" target="_blank">University of Colorado Boulder</a>.<br>
+                            I love learning and teaching others. My team often jokingly call it "Ayub University."<br>
+                            I believe in raising the bar—for myself and for the teams I work with.
+                            As my supervisor at Loeb Electric once said, “Ayub takes a project and pushes it to 120%. He shows everyone what they didn’t know they needed.”<br><br>
+                            For further details, please feel free to <a href="mailto:ayub.sherif94@gmail.com" target="_blank">email</a>.
+                        </p>
+                        <ul>
+                            <li><strong>Expertise:</strong> Data Analysis and Signal Processing</li>
+                            <li><strong>Strengths:</strong> Strong background in Math and Statistics</li>
+                            <li><strong>Contributions:</strong> Impactful data analytics projects</li>
+                        </ul>
+
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <h3>Interests</h3>
+                                <ul class="ul-interests">
+                                    <li>Data Science / Data Analysis</li>
+                                    <li>Radiation Detection / Signal Processing</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-7">
+                                <h3>Education</h3>
+                                <ul class="ul-edu fa-ul">
+                                    <li>
+                                        <i class="fa-li fa fa-graduation-cap"></i>
+                                        <div class="description">
+                                            <p class="course">B.Sc - Engineering Physics</p>
+                                            <p class="institution">The Ohio State University</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> <!-- /.col-md-8 -->
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </div> <!-- /#lead-content -->
         <div id="lead-overlay"></div>
         <div id="lead-down">
-            <span><i aria-hidden="true" class="fa fa-chevron-down"></i></span>
+            <span><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
         </div>
-    </div>
-
-<!-- About -->
-<section class="home-section" id="about">
-<div class="container">
-<div class="row" itemprop="author" itemref="person-email person-address" itemscope="" itemtype="http://schema.org/Person">
-<div class="col-xs-12 col-md-4">
-<div id="profile">
-<div class="portrait" style="background-image: url('/img/Ayub.jpg');"></div>
-<meta content="https://ayubsherif.github.io/img/Ayub.jpg" itemprop="image"/>
-<div class="portrait-title">
-<h2 itemprop="name">Ayub Sherif</h2>
-<h3 itemprop="jobTitle">Data Analyst II</h3>
-<h3 itemprop="worksFor" itemscope="" itemtype="http://schema.org/Organization">
-<a href="https://loebelectric.com/" itemprop="url" rel="noopener" target="_blank">
-<span itemprop="name">Loeb Electric</span>
-</a>
-</h3>
-</div>
-<link href="https://ayubsherif.github.io/" itemprop="url"/>
-<ul aria-hidden="true" class="network-icon">
-<li>
-<a href="https://www.linkedin.com/in/ayub-sherif-824111113/" itemprop="same" rel="noopener" target="_blank">
-<i class="fa fa-linkedin big-icon"></i>
-</a>
-</li>
-</ul>
-<ul aria-hidden="true" class="network-icon">
-<li>
-<a href="mailto:ayub.sherif94@gmail.com" itemprop="sameAs" rel="noopener" target="_blank">
-<i class="fa fa-envelope big-icon"></i>
-</a>
-</li>
-</ul>
-<ul aria-hidden="true" class="network-icon">
-<li>
-<a href="https://github.com/AyubSherif?tab=repositories" itemprop="same" rel="noopener" target="_blank">
-<i class="fa fa-github big-icon"></i>
-</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="col-xs-12 col-md-8" itemprop="description">
-<h1 id="about-me">About Me</h1>
-<p>
-    I’m Ayub Sherif — a Data Analyst II at <a href="https://loebelectric.com/" target="_blank">Loeb Electric</a>. I bring a unique blend of engineering, physics, and data science to my work.<br>
-    What sets me apart is my scientific mindset. I don’t just build models or dashboards—I understand the science behind the data. Whether I’m forecasting warehouse utilization using ML, or visualizing data in Power BI, I bring technical intuition and curiosity to every challenge.<br>
-    I hold a B.S. and M.S. in Nuclear Engineering from <a href="https://www.osu.edu" target="_blank">The Ohio State University</a>. Currently, I am pursuing a Master’s in Data Science at the <a href="https://www.colorado.edu/" target="_blank">University of Colorado Boulder</a>.<br>
-    What sets me apart is my scientific mindset. I don’t just build models or dashboards—I understand the science behind the data. Whether I’m forecasting warehouse utilization using ML, or visualizing data in Power BI, I bring a deep technical intuition and relentless curiosity to every challenge.<br>
-    I love learning and teaching others. My team often jokingly call it "Ayub University."<br>
-    I believe in raising the bar—for myself and for the teams I work with. As my supervisor at Loeb Electric once said, “Ayub takes a project and pushes it to 120%. He shows everyone what they didn’t know they needed.”<br>     
-    <br>
-    
-    For further details, please feel free to <a href="mailto:ayub.sherif94@gmail.com" target="_blank">email</a>.
-    <ul>
-        <li><strong>Expertise:</strong> Data Analysis and Signal Processing</li>
-        <li><strong>Strengths:</strong> Strong background in Math and Statistics</li>
-        <li><strong>Contributions:</strong> Impactful data analytics projects</li>
-    </ul>
-          </p>
-<div class="row">
-<div class="col-sm-5">
-<h3>Interests</h3>
-<ul class="ul-interests">
-<li>Data Science / Data Analysis</li>
-<li>Radiation Detection / Signal Processing</li>
-</ul>
-</div>
-<div class="col-sm-7">
-<h3>Education</h3>
-<ul class="ul-edu fa-ul">
-<li>
-<i class="fa-li fa fa-graduation-cap"></i>
-<div class="description">
-<p class="course">B.Sc - Engineering Physics </p>
-<p class="institution">The Ohio State University</p>
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="home-section" id="Experience">
-<div class="container">
-<div class="row">
-<div class="col-xs-12 col-md-4 section-heading">
+    </div> <!-- /#lead -->
 
 <!-----Experience Section------->
+<div class="container">
 <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div class="experience-container">
@@ -449,5 +428,6 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/scripts.min.js"></script>
+</div></div>
 </body>
 </html>
