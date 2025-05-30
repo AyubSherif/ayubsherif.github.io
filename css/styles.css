@@ -450,6 +450,7 @@ header a.active::after {
     left: 0;
     width: 80px;
     text-align: right;
+    font-weight: bold;
     color: #6c757d;
     font-size: 0.9em;
 }
