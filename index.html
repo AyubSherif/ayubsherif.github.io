@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <title>Portfolio</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet" />
+        <link href="libs/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
+
+        <!-- Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-EQZ8V3F5WN"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){ dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'G-EQZ8V3F5WN');
+        </script>
+    </head>
+
+    <body>
+        <div class="shadow-large" id="mobile-menu-open">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+
+        <header>
+            <div id="mobile-menu-close">
+                <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <ul class="shadow" id="menu">
+                <li><a href="#lead">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+
+        <!-----About Me Section------->
+        <div id="lead">
+            <div id="lead-content">
+                <div class="container">
+                    <div class="row" itemprop="author" itemref="person-email person-address" itemscope itemtype="http://schema.org/Person">
+                        <div class="col-xs-12 col-md-4">
+                            <div id="profile">
+                                <div class="portrait" style="background-image: url('https://ayubsherif.github.io/img/Ayub.jpg');"></div>
+                                <meta content="https://ayubsherif.github.io/img/Ayub.jpg" itemprop="image" />
+                                <div class="portrait-title">
+                                    <h2 itemprop="name">Ayub Sherif</h2>
+                                    <h3 itemprop="jobTitle">Data Analyst II</h3>
+                                    <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+                                        <a href="https://loebelectric.com/" itemprop="url" rel="noopener" target="_blank">
+                                            <span itemprop="name">Loeb Electric</span>
+                                        </a>
+                                    </h3>
+                                </div>
+                                <ul class="network-icon" aria-hidden="true">
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/ayub-sherif-824111113/" itemprop="same" rel="noopener" target="_blank">
+                                            <i class="fa fa-linkedin big-icon"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto:ayub.sherif94@gmail.com" itemprop="sameAs" rel="noopener" target="_blank">
+                                            <i class="fa fa-envelope big-icon"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/AyubSherif" itemprop="same" rel="noopener" target="_blank">
+                                            <i class="fa fa-github big-icon"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div style="margin-top: 15px;">
+                                    <a href="https://ayubsherif.github.io/files/AyubResume.pdf" 
+                                    class="btn-rounded-white" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer">View Resume</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-md-8" itemprop="description">
+                            <h1 id="about-me">About Me</h1>
+                            <p>
+                                I’m a Data Analyst II at <a href="https://loebelectric.com/" target="_blank">Loeb Electric</a>, where my role has grown into a hybrid of data analyst, data engineer, and data scientist. This evolution came from consistently pushing boundaries and delivering results that go beyond expectations. 
+
+                                To meet these expanding demands, I began a Master’s in Data Science at the <a href="https://www.colorado.edu/" target="_blank">University of Colorado Boulder</a>. I also hold a BS/MS degree in Engineering Physics and Nuclear Engineering from <a href="https://www.osu.edu" target="_blank">The Ohio State University</a>.<br>
+
+                                My major projects include:
+                            </p>
+                            <ul>
+                                <li>Building Power BI reporting infrastructure including a centralized <strong>Fabric SQL Warehouse</strong>, and standardized departmental <strong>Power BI Semantic Models and reports</strong> (Sales, Inventory, Purchasing, etc.).</li>
+                                <li>ML-powered <strong><a href="https://github.com/AyubSherif/ProductTaxonomy" target="_blank">Product Taxonomy Classifier</a></strong> to replace manual product categorization</li>
+                                <li><strong><a href="https://github.com/AyubSherif/WarehouseUtilizationForecasting" target="_blank">Warehouse Utilization Forecasting</a></strong> to guide replenishment and space planning</li>
+                                <li>Developing (In progress) a <strong>warehouse optimization tool</strong> to minimize picking/receiving travel distance</li>
+                            </ul>
+                            <p>
+                                Previously, at <strong>Serva Energy</strong>, I built a real-time <strong><a href="https://github.com/AyubSherif/GammaSpectroscopySoftwareAddOns" target="_blank">signal denoising filter</a></strong> for high activity radiation data using an innovative template matching method.<br>
+                                Whether it’s deploying machine learning models in production, visualizing actionable insights in Power BI, or solving physics-based problems, I bring scientific thinking and relentless curiosity to every project.<br>
+                                I’m always learning and I love teaching—my team jokingly refers to it as “<strong>Ayub University</strong>.” I believe in raising the bar—not just for myself, but for the teams around me.<br>
+                                On the topic of learning, check out my very cool <strong><a href="https://mybinder.org/v2/gh/AyubSherif/InteractiveFourierScribble/main?urlpath=%2Fdoc%2Ftree%2FInteractiveFourierScribble.ipynb" target="_blank">Educational</a></strong> tool, or navigate to the <strong>Projects</strong> section to see some of my work in action.
+                            </p>
+                            <ul>
+                                <li><strong>Interests:</strong> Data Science, Data Analysis</li>
+                                <li><strong>Strengths:</strong> Scientific mindset, Math/Statistical intuition, Problem solving</li>
+                            </ul>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div id="lead-overlay"></div>
+            <div id="lead-down">
+                <span><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+            </div>
+        </div>
+
+        <!-----Experience Section------->
+        <div class="container">
+            <div id="experience" class="background-alt">
+                <h2 class="heading">Experience</h2>
+                <div class="experience-container">
+                    <div class="experience-timeline">
+
+                        <div class="experience-item" data-date="Sep 2023 – Present">
+                            <div class="experience-content">
+                                <h3><a href="https://www.LoebElectric.com/" target="_blank">Loeb Electric</a> | Sep 2023 – Present</h3>
+                                <h4>Data Analyst II <strong>(Team Lead)</strong></h4>
+                                <ul>
+                                    <li>Built an enterprise-grade <strong>data ecosystem</strong> by integrating the company’s ERP and supplementary software into a centralized <strong>Fabric SQL Warehouse</strong>; developed department-specific <strong>Power BI Semantic Models</strong> for Sales, Purchasing, Inventory, and Accounting and more—enabling unified, real-time reporting across the organization.</li>
+                                    <li>Designed and deployed a <strong><a href="https://github.com/AyubSherif/WarehouseUtilizationForecasting" target="_blank">forecasting model</a></strong> to predict 30-day warehouse location utilization, improving space and labor planning and slotting efficiency.</li>
+                                    <li>Developed a supervised ML model to auto-classify e-commerce products, eliminating manual tagging and improving catalog quality.
+                                        Developed a <strong><a href="https://github.com/AyubSherif/ProductTaxonomy" target="_blank">supervised ML classifier</a></strong> to categorize wire/conduit products, reducing manual effort and improving e-commerce searchability.</li>
+                                    <li>Initiated and led a <strong>warehouse optimization</strong> project focused on reslotting and minimizing picker travel paths, contributing to labor savings and throughput improvements.</li>
+                                    <li>Launched and taught weekly <strong>Excel</strong> and <strong>Power Query</strong> crash courses, enhancing team capability and increasing self-service analytics adoption.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="experience-item" data-date="Apr 2022 – Sep 2023">
+                            <div class="experience-content">
+                                <h3><a href="https://www.LoebElectric.com/" target="_blank">Loeb Electric</a> | Apr 2022 – Sep 2023</h3>
+                                <h4>Data Analyst</h4>
+                                <ul>
+                                    <li>Took ownership of ERP data quality by learning and writing <strong>mass load scripts</strong> and <strong>subroutines</strong>, ensuring data consistency and reliability across critical business systems.</li>
+                                    <li>Designed a comprehensive <strong>Power BI app</strong> for the <strong>Direct Through Stock</strong> program that tracked product locations, shelf life, and customer behavior; included <strong>alerts</strong> for expiring items and revealed hidden storage costs—driving a shift from project-wide markup to more accurate <strong>itemized pricing</strong>.</li>
+                                    <li>Automated recurring report delivery by integrating <strong>SQL queries</strong>, <strong>Power BI</strong>, and <strong>Power Automate workflows</strong>, significantly reducing manual reporting effort.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="experience-item" data-date="Aug 2021 – May 2022">
+                            <div class="experience-content">
+                                <h3><a href="https://www.servaenergy.com/" target="_blank">Serva Energy</a> | Aug 2021 – May 2022</h3>
+                                <h4>Signal Processing Engineer (Contract)</h4>
+                                <ul>
+                                    <li>Contributed to the development of a high-throughput digital gamma spectroscopy system:</li>
+                                </ul>
+                                <ul style="padding-left: 80px;">
+                                    <li>Designed a real-time <strong><a href="https://github.com/AyubSherif/GammaSpectroscopySoftwareAddOns" target="_blank">signal denoising filter</a></strong> using FFT-based template matching to process 1.8 MS/s gamma-ray streams — improving event detection accuracy while reducing waveform memory/storage by over 90%.</li>
+                                    <li>Implemented SNIP-based background subtraction and pulse-level pile-up correction algorithms, resulting in enhanced spectral resolution and and peak-to-background ratio.</li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="experience-item" data-date="Oct 2021 – Apr 2022">
+                            <div class="experience-content">
+                                <h3><a href="https://www.amlrightsource.com/" target="_blank">AML RightSource</a> | Oct 2021 – Apr 2022</h3>
+                                <h4>Associate Analyst</h4>
+                                <ul>
+                                    <li>Conducted in-depth reviews of financial transactions and customer profiles to identify red flags related to money laundering and sanctions violations.</li>
+                                    <li>Leveraged pattern recognition and data analysis frameworks to support SAR (Suspicious Activity Report) filings and enhance compliance workflows.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="experience-item" data-date="Fall 2016 – Spring 2018">
+                            <div class="experience-content">
+                                <h3><a href="https://www.osu.edu/" target="_blank">The Ohio State University</a> | Fall 2016 – Spring 2018</h3>
+                                <h4>Undergraduate Research Assistant</h4>
+                                <ul>
+                                    <li>Tested the performance parameters of Perovskite Crystals for Gamma-ray detection and analyzed gamma spectral data.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-----Education Section------->
+        <div id="education">
+            <h2 class="heading">Education</h2>
+            <div class="education-container">
+
+                <div class="education-card">
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <img src="https://ayubsherif.github.io/img/OSULogo.svg" alt="Ohio State University Logo" style="height: 32px;">
+                        <h3 style="margin: 0;">The Ohio State University</h3>
+                    </div>
+                    <span class="education-date">Aug 2015 – May 2019</span>
+                    <h4>B.Sc – Engineering Physics</h4>
+                    <p>
+                        <strong>Relevant Courses:</strong><br>
+                        Linear Algebra, 
+                        Algorithms and Data Structures, 
+                        C++, 
+                        Python, 
+                        MatLab, 
+                        Experimental Physics Instrumentation and Data Analysis, 
+                        Theoretical and Computational Mechanics, 
+                        Radiation Measurement and Analysis
+                    </p>
+                </div>
+
+                <div class="education-card">
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <img src="https://ayubsherif.github.io/img/OSULogo.svg" alt="Ohio State University Logo" style="height: 32px;">
+                        <h3 style="margin: 0;">The Ohio State University</h3>
+                    </div>
+                    <span class="education-date">Jan 2020 – Dec 2024</span>
+                    <h4>M.S. – Nuclear Engineering</h4>
+                    <p>
+                        <strong>Relevant Courses:</strong><br>
+                        Numerical Methods for Partial Differential Equations <strong>(Finite Difference / Volume Methods)</strong>, 
+                        <a href="https://github.com/AyubSherif/ReactorPhysicsNE5002" target="_blank">Reactor Physics</a>, 
+                        Topics in Nuclear Physics, 
+                        Probability for Statistical Inference
+                    </p>
+                </div>
+
+                <div class="education-card">
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <img src="https://ayubsherif.github.io/img/CUBoulderLogo.svg" alt="University of Colorado Boulder Logo" style="height: 32px;">
+                        <h3 style="margin: 0;">University of Colorado Boulder</h3>
+                    </div>
+                    <span class="education-date">Jan 2025 – Dec 2026</span>
+                    <h4>M.S. – Data Science</h4>
+                    <p>
+                        <strong>Relevant Courses:</strong><br>
+                        Advanced Statistical Inference, 
+                        Data Structures and Algorithms <strong>(Trees and Graphs, Dynamic Programming, Greedy Algorithms)</strong>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-----Projects Section------->
+        <div id="projects" class="background-alt">
+            <h2 class="heading">Projects</h2>
+            <div class="container">
+                <div class="projects-grid">
+                    <div class="project-card shadow-large">
+                        <div class="project-image">
+                            <img src="https://ayubsherif.github.io/img/ML.svg" alt="Product Classification">
+                        </div>
+                        <div class="project-info">
+                            <h3>Product Taxonomy ML Classifier</h3>
+                            <p>
+                                Built a supervised machine learning model to automate the classification of e-commerce products into a 4-level taxonomy. This solution replaced manual tagging and enabled more accurate product data for analytics and e-commerce.
+                            </p>
+                            <a href="https://github.com/AyubSherif/ProductTaxonomy">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card shadow-large">
+                        <div class="project-image">
+                            <img src="https://ayubsherif.github.io/img/UtilizationReport.svg" alt="Warehouse Utilization Report">
+                        </div>
+                        <div class="project-info">
+                            <h3>Warehouse Utilization Forecasting</h3>
+                            <p>
+                                Designed a forecasting model to predict daily warehouse location usage over the next 30 days using inbound/outbound orders, inventory history, and slotting rules. The model outputs location occupancy by size category and feeds into a Power BI Dataflow for real-time reporting, enabling proactive space planning, labor scheduling, and slot optimization.
+                            </p>
+                            <a href="https://github.com/AyubSherif/WarehouseUtilizationForecasting" target="_blank" rel="noopener noreferrer">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card shadow-large">
+                        <div class="project-image">
+                            <img src="https://ayubsherif.github.io/img/Warehouse.svg" alt="Warehouse">
+                        </div>
+                        <div class="project-info">
+                            <h3>Warehouse Activity Analysis & Visualization Demo</h3>
+                            <p>
+                                Created an interactive demo to visualize warehouse analytics using 3D and 2D heatmaps. The tool helps identify high-traffic zones and supports layout optimization, labor planning, and congestion analysis.
+                            </p>
+                            <a href="https://github.com/AyubSherif/WarehouseManagementAppDemo">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card shadow-large">
+                        <div class="project-image">
+                            <img src="https://ayubsherif.github.io/img/Gamma.svg" alt="Gamma Spectroscopy">
+                        </div>
+                        <div class="project-info">
+                            <h3>Gamma Spectroscopy: Live Denoising and Gamma Spectrum Analysis</h3>
+                            <p>
+                                Developed a real-time signal denoising filter for gamma-ray spectroscopy using FFT-based template matching. The tool processes 1.8 million samples per second, reducing noise while preserving signal fidelity.
+                            </p>
+                            <a href="https://github.com/AyubSherif/GammaSpectroscopySoftwareAddOns">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card shadow-large">
+                        <div class="project-image">
+                            <img src="https://ayubsherif.github.io/img/Wave.svg" alt="Interactive Fourier Scribble">
+                        </div>
+                        <div class="project-info">
+                            <h3>Interactive Fourier Scribble</h3>
+                            <p>
+                                A hands-on visualizer that lets you draw any signal and watch it come to life through Fourier series. Built for interactive learning, this tool breaks down your scribble into harmonics in real time—showing how waves combine to recreate even the weirdest shapes. It’s math, physics, art rolled into one. Press "Launch Binder" to try it out!
+                            </p>
+                            <a href="https://mybinder.org/v2/gh/AyubSherif/InteractiveFourierScribble/main?urlpath=%2Fdoc%2Ftree%2FInteractiveFourierScribble.ipynb" class="link-plain">
+                            <img src="https://mybinder.org/badge_logo.svg" alt="Launch in Binder">
+                            </a>
+                            <a href="https://github.com/AyubSherif/InteractiveFourierScribble" target="_blank">View Project</a>  
+                        </div>
+                    </div>
+                    <div class="project-card shadow-large">
+                        <div class="project-image">
+                            <img src="https://ayubsherif.github.io/img/App.svg" alt="Sales Tracker App">
+                        </div>
+                        <div class="project-info">
+                            <h3>Sales Tracker App</h3>
+                            <p>
+                                A desktop application built for managing international designer shoe sales, customer orders, vendor purchases, and inventory. It supports multi-currency (USD/LYD) accounting, shipment tracking, and financial reporting—powered by Python and SQL Server. Designed as a complete end-to-end tool for personal business use.
+                            </p>
+
+                            <a href="https://github.com/AyubSherif/SalesApp">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card shadow-large">
+                        <div class="project-image">
+                            <img src="https://ayubsherif.github.io/img/Reactor.svg" alt="Simulating Neutron Diffusion in Materials">
+                        </div>
+                        <p class="copyright">
+                            <em><a href="https://elzo-meridianos.blogspot.com/2015_04_01_archive.html" target="_blank" rel="noopener noreferrer">This Photo</a> by Unknown Author</em> is licensed under 
+                            <a href="https://creativecommons.org/licenses/by-sa-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA-NC 4.0</a>.
+                        </p>
+                        <div class="project-info">
+                            <h3>Simulating Neutron Diffusion in Materials</h3>
+                            <p>
+                                Developed a 1D neutron diffusion solver to simulate fixed and fission source behavior in heterogeneous media. Implemented using the finite volume method and an optimized Gauss-Seidel solver, the model supports vacuum and reflective boundaries and visualizes neutron flux and convergence over time.
+                            </p>
+                            <a href="https://github.com/AyubSherif/ReactorPhysicsNE5002">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="skills">
+            <h2 class="heading">Skills</h2>
+            <div class="skills-grid">
+
+                <div class="skills-card">
+                    <i class="fa fa-code"></i>
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>R</li>
+                        <li>C++</li>
+                        <li>MATLAB</li>
+                    </ul>
+                </div>
+
+                <div class="skills-card">
+                    <i class="fa fa-database"></i>
+                    <h3>Databases</h3>
+                    <ul>
+                        <li>Microsoft SQL Server</li>
+                        <li>PostgreSQL</li>
+                        <li>Microsoft Fabric</li>
+                    </ul>
+                </div>
+
+                <div class="skills-card">
+                    <i class="fa fa-bar-chart"></i>
+                    <h3>Analytics & Reporting</h3>
+                    <ul>
+                        <li>Power BI</li>
+                        <li>Advanced Excel</li>
+                    </ul>
+                </div>
+
+                <div class="skills-card">
+                    <i class="fa fa-cogs"></i>
+                    <h3>Data Engineering</h3>
+                    <ul>
+                        <li>ETL Pipelines</li>
+                        <li>Power Query</li>
+                        <li>PySpark</li>
+                        <li>Spark SQL</li>
+                    </ul>
+                </div>
+
+                <div class="skills-card">
+                    <i class="fa fa-sellsy"></i>
+                    <h3>Data Science & ML</h3>
+                    <ul>
+                        <li>Pandas</li>
+                        <li>NumPy</li>
+                        <li>SciPy</li>
+                        <li>Scikit-learn</li>
+                        <li>MLlib</li>
+                        <li>Matplotlib</li>
+                        <li>Jupyter Notebook</li>
+                    </ul>
+                </div>
+
+                <div class="skills-card">
+                    <i class="fa fa-wrench"></i>
+                    <h3>Dev & Workflow Tools</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>Jira</li>
+                        <li>Tkinter</li>
+                        <li>Power Automate</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Awards Section -->
+        <section id="awards">
+            <h2 class="heading">Awards</h2>
+            <div class="awards-grid">
+
+                <div class="award-card">
+                    <div class="award-title">
+                        <h3>Top 10 National Rank</h3>
+                        <i class="fa fa-trophy"></i>
+                    </div>
+                    <p>Ranked 10th nationwide in Libya’s joint high school exit exam among over 60,000 students.</p>
+                </div>
+                <div class="award-card">
+                    <div class="award-title">                        
+                        <h3>Scholarship</h3>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>Awarded a prestigious four year full ride scholarship from Libya's Ministry of Higher Education.</p>
+                </div>
+                <div class="award-card">
+                    <div class="award-title">                        
+                        <h3>Tau Beta Pi</h3>
+                        <i class="fa fa-certificate"></i>
+                    </div>
+                    <p>Inducted into Tau Beta Pi engineering honor society for high academic achievement.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--- Contact Section --->
+        <section id="contact">
+            <h2 class="heading">Contact</h2>
+            <div class="contact-form-container">
+                <form id="contact-form" method="POST" action="https://formspree.io/f/xvgrpnql">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="_replyto" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <!--footer-->
+        <footer>
+            <div class="footer-container">
+
+                <div class="footer-copyright">
+                    <p>
+                        &copy; <span id="current-year">2025</span> Ayub Sherif
+                    </p>
+                </div>
+
+                <div class="footer-top">
+                    <a href="#lead" id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        <span>Back to Top</span>
+                    </a>
+                </div>
+
+                <div class="footer-social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/AyubSherif" target="_blank">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/ayub-sherif-824111113/" target="_blank">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/scripts.js"></script>
+
+    </body>
+</html>
